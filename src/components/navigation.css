@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "AlbaMatter";
+  src: local("AlbaMatter"),
+    url(../assets/fonts/ALBAMATTER.TTF) format("truetype");
+}

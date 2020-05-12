@@ -1,5 +1,5 @@
 import React from "react";
-import Splash from "./splash/splash";
+import Splash from "./pages/home";
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./history";
 
