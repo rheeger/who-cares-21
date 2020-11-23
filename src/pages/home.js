@@ -14,7 +14,7 @@ class Splash extends React.Component {
         <FullscreenWrapper>
           <BigHeader className="big-header">
             SHLOOPY DOOPY ENTERPRISES
-            <Subtitle>June 26, 2021 - Berkshire County</Subtitle>
+            <Subtitle>June 26, 2021 - Berkshire County, MA</Subtitle>
             <Navigation />
           </BigHeader>
         </FullscreenWrapper>
