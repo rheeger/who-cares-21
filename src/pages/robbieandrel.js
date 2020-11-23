@@ -5,7 +5,7 @@ import ReactGA from "react-ga";
 import Navigation from "../components/Navigation";
 import greece from "../assets/images/ShloopDoop.png";
 
-class Splash extends React.Component {
+class RobbieAndRel extends React.Component {
   render() {
     ReactGA.initialize("UA-164846205-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
@@ -13,9 +13,8 @@ class Splash extends React.Component {
       <div>
         <FullscreenWrapper>
           <BigHeader className="big-header">
-            SHLOOPY DOOPY ENTERPRISES
-            <Subtitle>June 26, 2021 - Berkshire County</Subtitle>
             <Navigation />
+            Robbie + Rel
           </BigHeader>
         </FullscreenWrapper>
       </div>
@@ -23,7 +22,7 @@ class Splash extends React.Component {
   }
 }
 
-export default Splash;
+export default RobbieAndRel;
 
 const FullscreenWrapper = styled.div`
   background-image: url(${greece});
@@ -33,7 +32,7 @@ const FullscreenWrapper = styled.div`
   background-attachment: fixed;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   max-width: 100vw;
@@ -41,13 +40,13 @@ const FullscreenWrapper = styled.div`
 
   @media only screen and (max-width: 811px) {
     background-position: -200px 50px;
-    text-align: left;
+    text-align: center;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: left;
-    margin-left: 0rem;
+    align-items: center;
+    margin-top: 0rem;
   }
 `;
 
@@ -57,11 +56,11 @@ const BigHeader = styled.p`
   font-size: 7rem;
   margin-top: 3rem;
   padding: 3rem;
-  width: 80vw;
+  width: 100vw;
   color: #315360;
   @media only screen and (max-width: 811px) {
     padding: 0;
-    margin-left: 2rem;
+    margin-top: 2rem;
     font-size: 3rem;
   }
 `;

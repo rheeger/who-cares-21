@@ -3,6 +3,7 @@ import { Menu, Dropdown, Responsive } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import "./navigation.css";
+import styled from "styled-components";
 
 class Navigation extends React.Component {
   state = { activeItem: "home" };
@@ -16,65 +17,51 @@ class Navigation extends React.Component {
         <Responsive
           as={Dropdown}
           button
-          fluid
-          maxWidth={811}
           text="Menu"
+          maxWidth={811}
           style={{
             zIndex: "1000",
             fontFamily: "AlbaMatter",
             letterSpacing: "1px",
-            fontSize: "1rem",
             textAlign: "center",
-            borderRadius: "0px",
-            marginBottom: "1rem",
+            borderRadius: "5px",
+            backgroundColor: "transparent",
+            color: "#456779",
+            margin: "0 auto"
           }}
         >
           <Dropdown.Menu>
             <Dropdown.Item
-              name="home"
-              active={activeItem === "home"}
-              onClick={this.handleItemClick}
-              style={{
-                zIndex: "1000",
-                textAlign: "center",
-              }}
+              name="relnrob"
+              active={activeItem === "relnrob"}
             >
-              Home
+              <Link to={`/`}><MenuItemText>Home</MenuItemText></Link>
+            </Dropdown.Item>
+            <Dropdown.Item
+              name="relnrob"
+              active={activeItem === "relnrob"}
+            >
+              <Link to={`/about`}><MenuItemText>Robbie + Rel</MenuItemText></Link>
             </Dropdown.Item>
             <Dropdown.Item
               name="accomodations"
               active={activeItem === "accomodations"}
-              onClick={this.handleItemClick}
             >
-              Accomodations
+              <Link to={`/accomodations`}><MenuItemText>Accomodations</MenuItemText></Link>
             </Dropdown.Item>
             <Dropdown.Item
               name="registry"
               active={activeItem === "registry"}
               onClick={this.handleItemClick}
             >
-              <Link to="/">Registry</Link>
-            </Dropdown.Item>
-            <Dropdown.Item
-              name="relnrob"
-              active={activeItem === "relnrob"}
-              onClick={this.handleItemClick}
-            >
-              <Link to={`/orgs`}>R + R</Link>
-            </Dropdown.Item>
-            <Dropdown.Item
-              name="schedule"
-              active={activeItem === "schedule"}
-              onClick={this.handleItemClick}
-            >
-              <Link to={`/orgs`}>Schedule</Link>
+              <Link to="/"><MenuItemText>Registry</MenuItemText></Link>
             </Dropdown.Item>
             <Dropdown.Item
               name="activities"
               active={activeItem === "activities"}
               onClick={this.handleItemClick}
             >
-              <Link to={`/orgs`}>Activities</Link>
+              <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="blank"><MenuItemText>Google Map</MenuItemText></a>
             </Dropdown.Item>
           </Dropdown.Menu>
         </Responsive>
@@ -88,52 +75,43 @@ class Navigation extends React.Component {
             position: "fixed",
             zIndex: "1000",
             fontFamily: "AlbaMatter",
-            backgorundColor: null,
+            backgroundColor: "white",
             letterSpacing: "1px",
             margin: "-2rem auto",
+            color: "#315360"
           }}
         >
           <Menu.Item
-            name="home"
-            active={activeItem === "home"}
+            name="relnrob"
+            active={activeItem === "relnrob"}
             onClick={this.handleItemClick}
           >
-            Home
-          </Menu.Item>
-          <Menu.Item
-            name="accomodations"
-            active={activeItem === "accomodations"}
-            onClick={this.handleItemClick}
-          >
-            Accomodations
-          </Menu.Item>
-          <Menu.Item
-            name="registry"
-            active={activeItem === "registry"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="/">Registry</Link>
+            <Link to={`/`}><MenuItemText>Home</MenuItemText></Link>
           </Menu.Item>
           <Menu.Item
             name="relnrob"
             active={activeItem === "relnrob"}
             onClick={this.handleItemClick}
           >
-            <Link to={`/orgs`}>R + R</Link>
+            <Link to={`/about`}><MenuItemText>Robbie + Rel</MenuItemText></Link>
           </Menu.Item>
           <Menu.Item
-            name="schedule"
-            active={activeItem === "schedule"}
-            onClick={this.handleItemClick}
+            name="accomodations"
+            active={activeItem === "accomodations"}
           >
-            <Link to={`/orgs`}>Schedule</Link>
+            <Link to={`/accomodations`}><MenuItemText>Accomodations</MenuItemText></Link>
+          </Menu.Item>
+          <Menu.Item
+            name="registry"
+          >
+            <a href="http://www.zola.com/registry/shloopydoopy" target="blank"><MenuItemText>Registry</MenuItemText></a>
           </Menu.Item>
           <Menu.Item
             name="activities"
             active={activeItem === "activities"}
             onClick={this.handleItemClick}
           >
-            <Link to={`/orgs`}>Activities</Link>
+            <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="blank"><MenuItemText>Google Map</MenuItemText></a>
           </Menu.Item>
         </Responsive>
       </div>
@@ -142,3 +120,7 @@ class Navigation extends React.Component {
 }
 
 export default Navigation;
+
+const MenuItemText = styled.p`
+color: #456779
+`
