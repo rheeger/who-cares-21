@@ -1,10 +1,10 @@
 import React from "react";
-import styled from "styled-components";
 import ReactGA from "react-ga";
+import { Link } from "react-router-dom";
+import { Segment } from "semantic-ui-react";
 
 import Navigation from "../components/Navigation";
-import greece from "../assets/images/ShloopDoop.png";
-
+import { FullscreenWrapper, BigHeader, Subtitle, LittleHeader } from "../components/styled";
 class RobbieAndRel extends React.Component {
   render() {
     ReactGA.initialize("UA-164846205-1");
@@ -14,8 +14,42 @@ class RobbieAndRel extends React.Component {
         <FullscreenWrapper>
           <BigHeader className="big-header">
             <Navigation />
-            Robbie + Rel
+            Robbie and Rel
           </BigHeader>
+          <Segment raised style={{ minWidth: "50vw", borderRadius: "0px", opacity: "0.90", textAlign: "center", padding: "3rem", marginBottom: " 10rem" }}>
+            <Subtitle>SUMMER 2005</Subtitle>
+            <a href="https://www.icloud.com/sharedalbum/#B0VGWZuqDst54ja" target="blank">
+              <LittleHeader>Meet as kids at Eisner Camp in Great Barrington.</LittleHeader><br />
+              </a>
+            <Subtitle>JULY 4 2016</Subtitle>
+            <a href="https://www.icloud.com/sharedalbum/#B0VG4TcsmsuPT9v" target="blank">
+              <LittleHeader>Reconnect on Stockbridge Bowl.</LittleHeader><br />
+              </a>
+            <Subtitle>JULY 9 2016</Subtitle>
+            <a href="https://www.apothekemixology.com/location/nyc-apotheke/" target="blank">
+              <LittleHeader>Kiss on a street corner in Chinatown, NYC.</LittleHeader><br />
+            </a>
+            <Subtitle>AUGUST 25 2016</Subtitle>
+            <a href="https://www.flourandwater.com/" target="blank">
+              <LittleHeader>Go on their first date in San Francisco.</LittleHeader><br />
+            </a>
+            <Subtitle>DECEMBER 26 2016</Subtitle>
+            <a href="https://www.icloud.com/sharedalbum/#B0V5qXGF1sA7QO5" target="blank">
+              <LittleHeader>Take their first trip together—Mexico City.</LittleHeader><br />
+            </a>
+            <Subtitle>FEBRUARY 13 2018</Subtitle>
+            <a href="https://www.icloud.com/sharedalbum/#B0u5n8hH4onSVz" target="blank">
+              <LittleHeader>Become corgi parents.</LittleHeader><br />
+            </a>
+            <Subtitle>AUGUST 21 2019</Subtitle>
+            <a href="https://www.icloud.com/sharedalbum/#B0VG6XBubsLB8aO" target="blank">
+              <LittleHeader>Get engaged in Greece.</LittleHeader><br />
+            </a>
+            <Subtitle>JUNE 26 2021</Subtitle>
+            <Link to="/">
+              <LittleHeader>...getting married in the Berkshires!</LittleHeader><br />
+          </Link>
+  </Segment>
         </FullscreenWrapper>
       </div>
     );
@@ -24,56 +58,3 @@ class RobbieAndRel extends React.Component {
 
 export default RobbieAndRel;
 
-const FullscreenWrapper = styled.div`
-  background-image: url(${greece});
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 90vh;
-  background-attachment: fixed;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  max-width: 100vw;
-  text-align: left;
-
-  @media only screen and (max-width: 811px) {
-    background-position: -200px 50px;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 0rem;
-  }
-`;
-
-const BigHeader = styled.p`
-  font-family: AlbaSuper;
-  font-weight: 400;
-  font-size: 7rem;
-  margin-top: 3rem;
-  padding: 3rem;
-  width: 100vw;
-  color: #315360;
-  @media only screen and (max-width: 811px) {
-    padding: 0;
-    margin-top: 2rem;
-    font-size: 3rem;
-  }
-`;
-
-const Subtitle = styled.p`
-  color: #565656;
-  font-family: AlbaMatter;
-  letter-spacing: 1px;
-  font-weight: 300;
-  font-size: 2rem;
-  padding-left: 5px;
-  width: 100vw;
-  @media only screen and (max-width: 811px) {
-    font-size: 1rem;
-  }
-`;
