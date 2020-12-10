@@ -52,14 +52,14 @@ class Navigation extends React.Component {
             <Dropdown.Item
               name="registry"
             >
-              <a href="http://www.zola.com/registry/shloopydoopy" target="blank"><MenuItemText>REGISTRY</MenuItemText></a>
+              <a href="http://www.zola.com/registry/shloopydoopy" target="new"><MenuItemText>REGISTRY</MenuItemText></a>
             </Dropdown.Item>
             <Dropdown.Item
               name="activities"
               active={activeItem === "activities"}
               onClick={this.handleItemClick}
             >
-              <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="blank"><MenuItemText>WEDDING MAP</MenuItemText></a>
+              <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="new"><MenuItemText>WEDDING MAP</MenuItemText></a>
             </Dropdown.Item>
           </Dropdown.Menu>
         </Responsive>
@@ -104,14 +104,14 @@ class Navigation extends React.Component {
           <Menu.Item
             name="registry"
           >
-            <a href="http://www.zola.com/registry/shloopydoopy" target="blank"><MenuItemText>REGISTRY</MenuItemText></a>
+            <a href="http://www.zola.com/registry/shloopydoopy" target="new"><MenuItemText>REGISTRY</MenuItemText></a>
           </Menu.Item>
           <Menu.Item
             name="activities"
             active={activeItem === "activities"}
             onClick={this.handleItemClick}
           >
-            <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="blank"><MenuItemText>WEDDING MAP</MenuItemText></a>
+            <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="new"><MenuItemText>WEDDING MAP</MenuItemText></a>
           </Menu.Item>
         </Responsive>
       </div >

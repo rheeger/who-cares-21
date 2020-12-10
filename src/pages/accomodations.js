@@ -17,6 +17,9 @@ class Accomodations extends React.Component {
             Accomodations
           </BigHeader>
           <Segment raised style={{ minWidth: "50vw", borderRadius: "0px", opacity: "0.90", textAlign: "center", padding: "3rem", marginBottom: " 10rem" }}>
+            <Subtitle>TRANSIT INFORMATION TO FOLLOW</Subtitle>
+            <br/>
+            <br/>
             <Subtitle>HOME RENTAL</Subtitle>
             <BigSwash>Air Bed & Breakfasts</BigSwash>
             <Subtitle>
@@ -30,8 +33,8 @@ class Accomodations extends React.Component {
             <br />
             Book early, it's the most popular time!
              </TinyHeader>
-            <a href="https://www.airbnb.com/wishlists/872572412/join?invite_code=TSETAEBA&inviter_id=24329714&s=67&unique_share_id=763fe7bb-e1cc-46a2-98fe-8485c1654c2f" target="blank"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto .5rem auto" }}>SEE AIRBNB LISTINGS</Button></a>
-            <a href="https://www.vrbo.com/tripboard/i/3e6f14ad-6e53-41b2-b51d-eef1b89ea92d?client=web&oc=xti2k_kt4Vy6w19ZrDTPF" target="blank"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>SEE VRBO LISTINGS</Button></a>
+            <a href="https://www.airbnb.com/wishlists/872572412/join?invite_code=TSETAEBA&inviter_id=24329714&s=67&unique_share_id=763fe7bb-e1cc-46a2-98fe-8485c1654c2f" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto .5rem auto" }}>SEE AIRBNB LISTINGS</Button></a>
+            <a href="https://www.vrbo.com/tripboard/i/3e6f14ad-6e53-41b2-b51d-eef1b89ea92d?client=web&oc=xti2k_kt4Vy6w19ZrDTPF" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>SEE VRBO LISTINGS</Button></a>
             <br />
             <br />
             <br />
@@ -46,9 +49,10 @@ class Accomodations extends React.Component {
             </Subtitle>
             <TinyHeader>
               70 Pittsfield Rd<br />
-              Lenox, MA 01240
+              Lenox, MA 01240<br />
+              Room Block: Friedman-Heeger
             </TinyHeader>
-            <a href="https://www.marriott.com/hotels/travel/gbrcy-courtyard-lenox-berkshires/" target="blank"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>BOOK THIS HOTEL</Button></a>
+            <a href="https://www.marriott.com/hotels/travel/gbrcy-courtyard-lenox-berkshires/" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>BOOK THIS HOTEL</Button></a>
             <br />
             <br />
             <br />
@@ -62,10 +66,11 @@ class Accomodations extends React.Component {
               <i className="star icon" />
             </Subtitle>
             <TinyHeader>
-              435 Laurel St, <br />
-                Lee, MA 01238
+              435 Laurel St.<br />
+                Lee, MA 01238<br />
+              Room Block: Friedman-Heeger
              </TinyHeader>
-            <a href="https://www.choicehotels.com/massachusetts/lee/ascend-hotels/ma177/rates?checkInDate=2021-06-25&checkOutDate=2021-06-27" target="blank"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>BOOK THIS HOTEL</Button></a>
+            <a href="https://www.choicehotels.com/massachusetts/lee/ascend-hotels/ma177/rates?checkInDate=2021-06-25&checkOutDate=2021-06-27" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>BOOK THIS HOTEL</Button></a>
             <br />
             <br />
 

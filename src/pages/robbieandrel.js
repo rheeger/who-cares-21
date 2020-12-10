@@ -14,35 +14,35 @@ class RobbieAndRel extends React.Component {
         <FullscreenWrapper>
           <BigHeader className="big-header">
             <Navigation />
-            Robbie and Rel
+            Robbie & Rel
           </BigHeader>
           <Segment raised style={{ minWidth: "50vw", borderRadius: "0px", opacity: "0.90", textAlign: "center", padding: "3rem", marginBottom: " 10rem" }}>
             <Subtitle>SUMMER 2005</Subtitle>
-            <a href="https://www.icloud.com/sharedalbum/#B0VGWZuqDst54ja" target="blank">
+            <a href="https://www.icloud.com/sharedalbum/#B0VGWZuqDst54ja" >
               <LittleHeader>Meet as kids at Eisner Camp in Great Barrington.</LittleHeader><br />
               </a>
             <Subtitle>JULY 4 2016</Subtitle>
-            <a href="https://www.icloud.com/sharedalbum/#B0VG4TcsmsuPT9v" target="blank">
+            <a href="https://www.icloud.com/sharedalbum/#B0VG4TcsmsuPT9v" >
               <LittleHeader>Reconnect on Stockbridge Bowl.</LittleHeader><br />
               </a>
             <Subtitle>JULY 9 2016</Subtitle>
-            <a href="https://www.apothekemixology.com/location/nyc-apotheke/" target="blank">
+            <a href="https://www.apothekemixology.com/location/nyc-apotheke/" >
               <LittleHeader>Kiss on a street corner in Chinatown, NYC.</LittleHeader><br />
             </a>
             <Subtitle>AUGUST 25 2016</Subtitle>
-            <a href="https://www.flourandwater.com/" target="blank">
+            <a href="https://www.flourandwater.com/" >
               <LittleHeader>Go on their first date in San Francisco.</LittleHeader><br />
             </a>
             <Subtitle>DECEMBER 26 2016</Subtitle>
-            <a href="https://www.icloud.com/sharedalbum/#B0V5qXGF1sA7QO5" target="blank">
+            <a href="https://www.icloud.com/sharedalbum/#B0V5qXGF1sA7QO5" >
               <LittleHeader>Take their first trip together—Mexico City.</LittleHeader><br />
             </a>
             <Subtitle>FEBRUARY 13 2018</Subtitle>
-            <a href="https://www.icloud.com/sharedalbum/#B0u5n8hH4onSVz" target="blank">
+            <a href="https://www.icloud.com/sharedalbum/#B0u5n8hH4onSVz" >
               <LittleHeader>Become corgi parents.</LittleHeader><br />
             </a>
             <Subtitle>AUGUST 21 2019</Subtitle>
-            <a href="https://www.icloud.com/sharedalbum/#B0VG6XBubsLB8aO" target="blank">
+            <a href="https://www.icloud.com/sharedalbum/#B0VG6XBubsLB8aO" >
               <LittleHeader>Get engaged in Greece.</LittleHeader><br />
             </a>
             <Subtitle>JUNE 26 2021</Subtitle>

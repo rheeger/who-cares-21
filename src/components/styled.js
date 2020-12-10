@@ -26,7 +26,6 @@ export const FullscreenWrapper = styled.div`
   @media only screen and (max-width: 811px) {
     background-position: -200px 50px;
     text-align: center;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -81,7 +80,6 @@ export const Subtitle = styled.p`
   letter-spacing: 1px;
   font-weight: bold;
   font-size: .75rem;
-  padding-left: 5px;
   @media only screen and (max-width: 811px) {
     font-size: .75rem;
   }
@@ -90,11 +88,9 @@ export const Subtitle = styled.p`
 export const Swash = styled.p`
   color: #315360;
   font-family: Bookman-JF-Pro;
-  letter-spacing: 1px;
   font-weight: bold;
   font-feature-settings: 'swsh' on;
   font-size: 1.25rem;
-  padding-left: 5px;
   @media only screen and (max-width: 811px) {
     font-size: 1.5rem;
   }
@@ -139,6 +135,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   margin-left: 0rem;
+  padding-left: 0.25rem;
 }
 `;
 
@@ -151,7 +148,15 @@ export const HomepageBigHeader = styled.p`
   color: #315360;
   line-height: 6rem;
   @media only screen and (max-width: 811px) {
+    line-height: 4rem;
     padding: 0;
     font-size: 3.5rem;
   }
 `;
+
+export const Frame = styled.div`
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+`
