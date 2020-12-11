@@ -50,6 +50,7 @@ class Accomodations extends React.Component {
             <TinyHeader>
               70 Pittsfield Rd<br />
               Lenox, MA 01240<br />
+              Big, clean, beautiful room with good access to both Pittsfield and Lenox.<br />
               Room Block: Friedman-Heeger
             </TinyHeader>
             <a href="https://www.marriott.com/hotels/travel/gbrcy-courtyard-lenox-berkshires/" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>BOOK THIS HOTEL</Button></a>
@@ -68,9 +69,29 @@ class Accomodations extends React.Component {
             <TinyHeader>
               435 Laurel St.<br />
                 Lee, MA 01238<br />
+                For the younger crowd.<br/> Walking distance to Wedding Party.<br />
               Room Block: Friedman-Heeger
              </TinyHeader>
             <a href="https://www.choicehotels.com/massachusetts/lee/ascend-hotels/ma177/rates?checkInDate=2021-06-25&checkOutDate=2021-06-27" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>BOOK THIS HOTEL</Button></a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <Subtitle>OTHER OPTIONS</Subtitle>
+            <BigSwash>Inns, Manors & Lodges</BigSwash>
+            <Subtitle>
+              <i className="star icon" />
+              <i className="star icon" />
+              <i className="star icon" />
+              <i className="star icon" />
+              <i className="star icon" />
+            </Subtitle>
+            <TinyHeader>
+              The Berkshires are best known for their <br/>
+              very cozy Bed & Breakfasts. We've put <br/> 
+              some of our favorites into our map. 
+            </TinyHeader>
+            <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="new"><Button className="ui button blue-button" compact fluid size="small" color="grey" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto 0rem auto" }}>VIEW WEDDING MAP</Button></a>
             <br />
             <br />
 

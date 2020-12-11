@@ -22,8 +22,8 @@ class Splash extends React.Component {
           </HomepageBigHeader>
           <Frame>
             <a href="https://www.levelframes.com/frames/new?width=8.125&height=11.25" target="blank">
-              <Button compact color="grey" className="ui button blue-button">
-                Frame Me!
+              <Button compact color="grey" size="tiny" className="ui button blue-button" style={{ maxWidth: "300px", fontFamily: "Futura", fontWeight: "600", margin: "0rem auto .5rem auto" }}>
+                FRAME ME
               </Button>  
             </a>
           </Frame>
