@@ -6,8 +6,8 @@ export const MenuItemText = styled.p`
   text-align: center;
   font-family: Futura;
   font-weight: 600;
-  font-size: .75rem;
-`
+  font-size: 0.75rem;
+`;
 
 export const FullscreenWrapper = styled.div`
   background-image: url(${greece});
@@ -36,7 +36,7 @@ export const FullscreenWrapper = styled.div`
 
 export const BigHeader = styled.p`
   font-family: Bookman-JF-Pro;
-  font-feature-settings: 'swsh' on;
+  font-feature-settings: "swsh" on;
   font-weight: 400;
   font-size: 4rem;
   margin-top: 3rem;
@@ -79,9 +79,9 @@ export const Subtitle = styled.p`
   font-family: Futura;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size: .75rem;
+  font-size: 0.75rem;
   @media only screen and (max-width: 811px) {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 `;
 
@@ -89,7 +89,7 @@ export const Swash = styled.p`
   color: #315360;
   font-family: Bookman-JF-Pro;
   font-weight: bold;
-  font-feature-settings: 'swsh' on;
+  font-feature-settings: "swsh" on;
   font-size: 1.25rem;
   @media only screen and (max-width: 811px) {
     font-size: 1.5rem;
@@ -101,7 +101,7 @@ export const BigSwash = styled.p`
   font-family: Bookman-JF-Pro;
   letter-spacing: 1px;
   font-weight: bold;
-  font-feature-settings: 'swsh' on;
+  font-feature-settings: "swsh" on;
   font-size: 2.5rem;
   padding-left: 5px;
   margin-bottom: 1.5rem;
@@ -111,32 +111,32 @@ export const BigSwash = styled.p`
 `;
 
 export const HomepageWrapper = styled.div`
-background-image: url(${greece});
-background-repeat: no-repeat;
-background-position: right;
-background-size: 90vh;
-background-attachment: fixed;
-height: 100vh;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-max-width: 100vw;
-margin-left: 4rem;
-text-align: center;
-
-@media only screen and (max-width: 811px) {
-  background-position: -200px 50px;
-  text-align: center;
+  background-image: url(${greece});
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 90vh;
+  background-attachment: fixed;
   height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-left: 0rem;
-  padding-left: 0.25rem;
-}
+  max-width: 100vw;
+  margin-left: 4rem;
+  text-align: center;
+
+  @media only screen and (max-width: 811px) {
+    background-position: -200px 50px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    padding-left: 0.25rem;
+  }
 `;
 
 export const HomepageBigHeader = styled.p`
@@ -158,5 +158,4 @@ export const Frame = styled.div`
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-
-`
+`;

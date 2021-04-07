@@ -26,40 +26,55 @@ class Navigation extends React.Component {
             borderRadius: "5px",
             backgroundColor: "transparent",
             color: "#315360",
-            margin: "-3rem auto",
+            margin: "1rem auto",
             fontSize: "1rem",
           }}
         >
           <Dropdown.Menu>
-            <Dropdown.Item
-              name="relnrob"
-              active={activeItem === "relnrob"}
-            >
-              <Link to={`/`}><MenuItemText>HOME</MenuItemText></Link>
+            <Dropdown.Item name="relnrob" active={activeItem === "relnrob"}>
+              <Link to={`/`}>
+                <MenuItemText>HOME</MenuItemText>
+              </Link>
             </Dropdown.Item>
-            <Dropdown.Item
-              name="relnrob"
-              active={activeItem === "relnrob"}
-            >
-              <Link to={`/about`}><MenuItemText>ROBBIE & REL</MenuItemText></Link>
+            <Dropdown.Item name="relnrob" active={activeItem === "relnrob"}>
+              <Link to={`/about`}>
+                <MenuItemText>ROBBIE & REL</MenuItemText>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item name="itinerary" active={activeItem === "itinerary"}>
+              <Link to={`/itinerary`}>
+                <MenuItemText>INTINERARY</MenuItemText>
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item
               name="accomodations"
               active={activeItem === "accomodations"}
             >
-              <Link to={`/accomodations`}><MenuItemText>ACCOMODATIONS</MenuItemText></Link>
+              <Link to={`/accomodations`}>
+                <MenuItemText>ACCOMODATIONS</MenuItemText>
+              </Link>
             </Dropdown.Item>
-            <Dropdown.Item
-              name="registry"
-            >
-              <a href="http://www.zola.com/registry/shloopydoopy" target="new"><MenuItemText>REGISTRY</MenuItemText></a>
+            <Dropdown.Item name="registry">
+              <a href="http://www.zola.com/registry/shloopydoopy" target="new">
+                <MenuItemText>REGISTRY</MenuItemText>
+              </a>
             </Dropdown.Item>
             <Dropdown.Item
               name="activities"
               active={activeItem === "activities"}
               onClick={this.handleItemClick}
             >
-              <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="new"><MenuItemText>WEDDING MAP</MenuItemText></a>
+              <a
+                href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing"
+                target="new"
+              >
+                <MenuItemText>MAP</MenuItemText>
+              </a>
+            </Dropdown.Item>
+            <Dropdown.Item name="safety" active={activeItem === "safety"}>
+              <Link to={`/safety`}>
+                <MenuItemText>SAFETY</MenuItemText>
+              </Link>
             </Dropdown.Item>
           </Dropdown.Menu>
         </Responsive>
@@ -75,10 +90,10 @@ class Navigation extends React.Component {
             fontWeight: "600",
             backgroundColor: "white",
             letterSpacing: "1px",
-            margin: "-2rem 1.5rem",
+            margin: "-2rem auto",
             color: "#315360",
             fontSize: ".75rem",
-            marginLeft: "1rem"
+            marginLeft: "-2rem",
           }}
         >
           <Menu.Item
@@ -86,38 +101,58 @@ class Navigation extends React.Component {
             active={activeItem === "relnrob"}
             onClick={this.handleItemClick}
           >
-            <Link to={`/`}><MenuItemText>HOME</MenuItemText></Link>
+            <Link to={`/`}>
+              <MenuItemText>HOME</MenuItemText>
+            </Link>
           </Menu.Item>
           <Menu.Item
             name="relnrob"
             active={activeItem === "relnrob"}
             onClick={this.handleItemClick}
           >
-            <Link to={`/about`}><MenuItemText>ROBBIE & REL</MenuItemText></Link>
+            <Link to={`/about`}>
+              <MenuItemText>ROBBIE & REL</MenuItemText>
+            </Link>
+          </Menu.Item>
+          <Menu.Item name="itinerary" active={activeItem === "itinerary"}>
+            <Link to={`/itinerary`}>
+              <MenuItemText>INTINERARY</MenuItemText>
+            </Link>
           </Menu.Item>
           <Menu.Item
             name="accomodations"
             active={activeItem === "accomodations"}
           >
-            <Link to={`/accomodations`}><MenuItemText>ACCOMODATIONS</MenuItemText></Link>
+            <Link to={`/accomodations`}>
+              <MenuItemText>ACCOMODATIONS</MenuItemText>
+            </Link>
           </Menu.Item>
-          <Menu.Item
-            name="registry"
-          >
-            <a href="http://www.zola.com/registry/shloopydoopy" target="new"><MenuItemText>REGISTRY</MenuItemText></a>
+          <Menu.Item name="registry">
+            <a href="http://www.zola.com/registry/shloopydoopy" target="new">
+              <MenuItemText>REGISTRY</MenuItemText>
+            </a>
           </Menu.Item>
           <Menu.Item
             name="activities"
             active={activeItem === "activities"}
             onClick={this.handleItemClick}
           >
-            <a href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing" target="new"><MenuItemText>WEDDING MAP</MenuItemText></a>
+            <a
+              href="https://www.google.com/maps/d/edit?mid=1YLg5y0YHQae1GVJJyoEsUFwioli6ddRY&usp=sharing"
+              target="new"
+            >
+              <MenuItemText>MAP</MenuItemText>
+            </a>
+          </Menu.Item>
+          <Menu.Item name="safety" active={activeItem === "safety"}>
+            <Link to={`/safety`}>
+              <MenuItemText>SAFETY</MenuItemText>
+            </Link>
           </Menu.Item>
         </Responsive>
-      </div >
+      </div>
     );
   }
 }
 
 export default Navigation;
-
