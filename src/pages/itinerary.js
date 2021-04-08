@@ -41,6 +41,14 @@ class RobbieAndRel extends React.Component {
               <br />
               cocktails by the waters of Laurel Lake.
             </TinyHeader>
+            <Subtitle>TRANSIT</Subtitle>
+            <TinyHeader>
+              Park at the Black Swan Inn
+              <br />
+              and shuttles will take you
+              <br />
+              up the hill to the Lake House Inn.
+            </TinyHeader>
             <a
               href="https://www.google.com/maps?cid=458095394546800747"
               target="new"
@@ -60,7 +68,6 @@ class RobbieAndRel extends React.Component {
               >
                 GET DIRECTIONS
               </Button>
-              <Subtitle>PARKING SHUTTLES PROVIDED FROM BLACK SWAN INN</Subtitle>
             </a>
             <br />
             <br />
@@ -73,6 +80,12 @@ class RobbieAndRel extends React.Component {
               Outdoor ceremony in the round followed
               <br />
               by an evening of dinner and dancing.
+            </TinyHeader>
+            <Subtitle>TRANSIT</Subtitle>
+            <TinyHeader>
+              Shuttles will be provided to
+              <br />
+              and from the Lenox Area.
             </TinyHeader>
             <a
               href="https://www.google.com/maps?cid=16147019334668679257"
@@ -94,8 +107,6 @@ class RobbieAndRel extends React.Component {
                 GET DIRECTIONS
               </Button>
             </a>
-            <Subtitle>HOTEL SHUTTLES PROVIDED TO + FROM LENOX AREA</Subtitle>
-
             <br />
             <br />
             <br />
@@ -107,6 +118,14 @@ class RobbieAndRel extends React.Component {
               Bagels, lox, babka...
               <br />
               See ya!
+            </TinyHeader>
+            <Subtitle>TRANSIT</Subtitle>
+            <TinyHeader>
+              Park at the Lake House Inn
+              <br />
+              if available, or head to the boat launch
+              <br />
+              or Black Swan Inn and make the 5 mins walk.
             </TinyHeader>
             <a
               href="https://www.google.com/maps?cid=458095394546800747"
@@ -128,7 +147,6 @@ class RobbieAndRel extends React.Component {
                 GET DIRECTIONS
               </Button>
             </a>
-            <Subtitle>GET THERE YOURSELF!</Subtitle>
 
             <br />
             <br />

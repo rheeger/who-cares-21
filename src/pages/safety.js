@@ -34,19 +34,34 @@ class RobbieAndRel extends React.Component {
           >
             <br />
             <Subtitle>FACE COVERINGS</Subtitle>
-            <BigSwash>Masks Required!</BigSwash>
+            <BigSwash>Masks Required</BigSwash>
             <Subtitle>BY ORDER OF GOV. CHARLIE BAKER</Subtitle>
             <TinyHeader>
               All guests will need to wear masks
               <br />
-              when not eating or drinking.
+              when not eating or drinking. Fear not,
+              <br />
+              we've got lots of hand sanitizer ready to go.
+              <br />
+            </TinyHeader>
+            <br />
+            <br />
+            <br />
+            <Subtitle>SOCIAL DISTANCING</Subtitle>
+            <BigSwash>All-Outdoors</BigSwash>
+            <TinyHeader>
+              Friday, Saturday and Sunday's
+              <br />
+              activities are being held outdoors
+              <br />
+              or under a tent, with appropriate spacing.
               <br />
             </TinyHeader>
             <br />
             <br />
             <br />
             <Subtitle>1ST CHOICE</Subtitle>
-            <BigSwash>Get Vaccinated!</BigSwash>
+            <BigSwash>Get Vaccinated</BigSwash>
             <Subtitle>
               <i className="star icon" />
               <i className="star icon" />
@@ -64,7 +79,7 @@ class RobbieAndRel extends React.Component {
             <br />
             <br />
             <Subtitle>2ND CHOICE</Subtitle>
-            <BigSwash>Get Tested!</BigSwash>
+            <BigSwash>Get Tested</BigSwash>
             <Subtitle>
               <i className="star icon" />
               <i className="star icon" />
