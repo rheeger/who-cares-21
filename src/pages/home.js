@@ -42,7 +42,7 @@ class Splash extends React.Component {
                   maxWidth: "300px",
                   fontFamily: "Futura",
                   fontWeight: "600",
-                  margin: "-2rem auto 3rem auto",
+                  margin: "-2rem auto 1rem auto",
                 }}
               >
                 RSVP NOW

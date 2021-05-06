@@ -159,3 +159,15 @@ export const Frame = styled.div`
   bottom: 1rem;
   right: 1rem;
 `;
+
+export const EmojiImage = styled.img`
+  width: 100vw;
+  height: auto;
+  padding: 0 0.5rem;
+  max-width: 40rem;
+  border-radius: 500px;
+  @media only screen and (max-width: 811px) {
+    margin-left: 0;
+    max-width: 90vw;
+  }
+`;
