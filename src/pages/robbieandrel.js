@@ -31,7 +31,7 @@ class RobbieAndRel extends React.Component {
               opacity: "0.90",
               textAlign: "center",
               padding: "3rem",
-              marginBottom: " 250px",
+              marginBottom: " 10rem",
             }}
           >
             <br />
