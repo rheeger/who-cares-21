@@ -33,21 +33,19 @@ class RobbieAndRel extends React.Component {
             }}
           >
             <br />
-            <Subtitle>8PM FRIDAY JUNE 25TH</Subtitle>
+            <Subtitle>8PM FRIDAY, JUNE 25TH</Subtitle>
             <BigSwash>Welcome Soiree</BigSwash>
             <Subtitle>THE LAKE HOUSE INN, SMART CASUAL</Subtitle>
             <TinyHeader>
-              Come kickoff the weekend with dessert and
+              Come kickoff the weekend with dessert and cocktails by the waters
+              of Laurel Lake.
               <br />
-              cocktails by the waters of Laurel Lake.
+              Wear bug spray!!!
             </TinyHeader>
             <Subtitle>TRANSIT</Subtitle>
             <TinyHeader>
-              Park at the Black Swan Inn
-              <br />
-              and shuttles will take you
-              <br />
-              up the hill to the Lake House Inn.
+              Park at the Lee Health Care parking lot across the street or at
+              the Laurel Lake public boat launch just down the hill.
             </TinyHeader>
             <a
               href="https://www.google.com/maps?cid=458095394546800747"
@@ -73,20 +71,56 @@ class RobbieAndRel extends React.Component {
             <br />
             <br />
             <br />
-            <Subtitle>5PM SATURDAY JUNE 26TH</Subtitle>
+            <Subtitle>5PM SATURDAY, JUNE 26TH</Subtitle>
             <BigSwash>Wedding Ceremony</BigSwash>
             <Subtitle>HANCOCK SHAKER VILLIAGE, DISCO COCKTAIL</Subtitle>
             <TinyHeader>
-              Outdoor ceremony in the round followed
-              <br />
-              by an evening of dinner and dancing.
+              Outdoor ceremony in the round followed by an evening of dinner and
+              dancing.
             </TinyHeader>
-            <Subtitle>TRANSIT</Subtitle>
+            <Subtitle>SHUTTLE SCHEDULE</Subtitle>
             <TinyHeader>
-              Shuttles will be provided to
-              <br />
-              and from the Lenox Area.
+              Shuttles will run to and from the venue. Use the times below to
+              plan your night!
             </TinyHeader>
+            <Subtitle>Courtyard Marriott</Subtitle>
+            <TinyHeader>
+              Pick up: 4:10, 4:20pm
+              <br />
+              Return: 9:45, 10:00, 10:15, 10:30, 11:00
+            </TinyHeader>
+            <Subtitle>Black Swan Inn</Subtitle>
+            <TinyHeader>
+              Pick up: 4:10pm
+              <br />
+              Return: 9:45, 10:00, 11:00
+            </TinyHeader>
+            <Subtitle>Nejaimes (60 Main St) - Airbnbs/Lenox </Subtitle>
+            <TinyHeader>
+              Pick up: 4:15
+              <br />
+              Return: 10:00, 11:00
+            </TinyHeader>
+            <Subtitle>Lakehouse Inn</Subtitle>
+            <TinyHeader>
+              Pick up: 3:00, 4:10
+              <br />
+              Return: 9:45, 11:00
+            </TinyHeader>
+            <Subtitle>Brook Farm Inn</Subtitle>
+            <TinyHeader>
+              Pick up: 3:05
+              <br />
+              Return: 9:45, 11:00
+            </TinyHeader>
+            <Subtitle>28 Nielsen Road, Lenox</Subtitle>
+            <TinyHeader>
+              Pick up: 3:00
+              <br />
+              Return: 9:45, 11:00
+            </TinyHeader>
+            <Subtitle>After-Party (All Stops)</Subtitle>
+            <TinyHeader>Return: 12:00, 12:30, 1:30</TinyHeader>
             <a
               href="https://www.google.com/maps?cid=16147019334668679257"
               target="new"
@@ -111,7 +145,7 @@ class RobbieAndRel extends React.Component {
             <br />
             <br />
             <br />
-            <Subtitle>10AM SUNDAY JUNE 27TH</Subtitle>
+            <Subtitle>10AM SUNDAY, JUNE 27TH</Subtitle>
             <BigSwash>Farewell Brunch</BigSwash>
             <Subtitle>LAKE HOUSE INN, COMFY-COZY</Subtitle>
             <TinyHeader>
@@ -121,11 +155,8 @@ class RobbieAndRel extends React.Component {
             </TinyHeader>
             <Subtitle>TRANSIT</Subtitle>
             <TinyHeader>
-              Park at the Lake House Inn
-              <br />
-              if available, or head to the boat launch
-              <br />
-              or Black Swan Inn and make the 5 mins walk.
+              Park at the Lake House Inn if available, or head to the boat
+              launch or Black Swan Inn and make the 5 mins walk.
             </TinyHeader>
             <a
               href="https://www.google.com/maps?cid=458095394546800747"

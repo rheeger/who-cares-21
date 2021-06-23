@@ -34,12 +34,12 @@ class RobbieAndRel extends React.Component {
           >
             <br />
             <Subtitle>FACE COVERINGS</Subtitle>
-            <BigSwash>Masks Required</BigSwash>
-            <Subtitle>BY ORDER OF GOV. CHARLIE BAKER</Subtitle>
+            <BigSwash>Masks Optional</BigSwash>
+            <Subtitle>REALLY, IT'S UP TO YOU</Subtitle>
             <TinyHeader>
-              All guests will need to wear masks
+              Guests may choose to wear a mask if they'd
               <br />
-              when not eating or drinking. Fear not,
+              feel more comfortable with one. Fear not,
               <br />
               we've got lots of hand sanitizer ready to go.
               <br />

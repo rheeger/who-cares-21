@@ -24,7 +24,7 @@ export const FullscreenWrapper = styled.div`
   text-align: left;
 
   @media only screen and (max-width: 811px) {
-    background-position: -200px 50px;
+    background-position: 70% 40px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -66,11 +66,13 @@ export const TinyHeader = styled.p`
   font-family: Bookman-JF-Pro;
   font-weight: 400;
   font-size: 1.25rem;
+  max-width: 30rem;
+  margin: -1rem auto 1rem auto;
   padding: 1rem;
   color: #315360;
   @media only screen and (max-width: 811px) {
-    padding: 0;
     font-size: 1rem;
+    max-width: 60rem;
   }
 `;
 
@@ -82,6 +84,7 @@ export const Subtitle = styled.p`
   font-size: 0.75rem;
   @media only screen and (max-width: 811px) {
     font-size: 0.75rem;
+    max-width: 90vw;
   }
 `;
 
@@ -126,7 +129,7 @@ export const HomepageWrapper = styled.div`
   text-align: center;
 
   @media only screen and (max-width: 811px) {
-    background-position: -200px 50px;
+    background-position: 70% 40px;
     text-align: center;
     height: 100vh;
     width: 100vw;

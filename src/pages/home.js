@@ -1,6 +1,7 @@
 import React from "react";
 import ReactGA from "react-ga";
 import { Button } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 import Navigation from "../components/Navigation";
 import {
@@ -26,13 +27,8 @@ class Splash extends React.Component {
             <br />
             COUNTY
             <LittleHeader>June 26 2021</LittleHeader>
-            {/* <a
-              href="https://google.com  "
-              target="blank"
-              style={{ margin: "0px", height: "0px" }}
-            > */}
             <Navigation />
-            <a href="https://forms.gle/ijsgJquZm6rLz8RV9" target="new">
+            <Link to={`/itinerary`}>
               <Button
                 compact
                 color="grey"
@@ -45,13 +41,13 @@ class Splash extends React.Component {
                   margin: "-2rem auto 1rem auto",
                 }}
               >
-                RSVP NOW
+                WEEKEND INFO
                 <i
                   className="arrow right icon"
                   style={{ margin: "0 -.5rem 0 .5rem", color: "#ffffff" }}
                 />
               </Button>
-            </a>
+            </Link>
           </HomepageBigHeader>
           <Frame>
             <a
