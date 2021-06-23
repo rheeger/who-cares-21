@@ -1,0 +1,26 @@
+steps:
+  # Install
+  - name: node:13.8.0
+    entrypoint: npm
+    args: ["install"]
+    id: client-install
+
+  - name: node:13.8.0
+    entrypoint: npm
+    args: ["run", "build"]
+    timeout: "2000s"
+    id: build
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      [
+        "app",
+        "deploy",
+        "--promote",
+        "--version",
+        "$SHORT_SHA-client",
+        "app.yaml",
+      ]
+    timeout: "2000s"
+    id: deploy
+
+timeout: "3600s"
